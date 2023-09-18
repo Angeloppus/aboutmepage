@@ -1,0 +1,202 @@
+body {
+	height: 100%;
+    width: 100%;
+	margin: 0px;
+	background-image: url('images/bg1-2.jpg');
+	background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	font-size: 400%;
+	margin-top: 1.5%;
+	color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 20%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: white;
+  margin-top: -1%;
+  
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg2-2.jpg');
+    padding: 80px 0px;
+    background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+
+.intro-text h2 {
+	margin-top: -2%;
+    font-size: 280%;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+	
+.intro-text p{
+	font-size: 140%;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.personal {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg3-2.jpg');
+    padding: 80px 0px;
+    background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+
+.personal-text h2 {
+	margin-top: -2%;
+    font-size: 280%;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+
+.personal-text p{
+	text-align: center;
+	font-size: 200%;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Inter', sans-serif;
+	color: white;
+	width: 100%;
+}
+
+.personal-text p:before {
+ font-family: "Font Awesome 5 Free";
+   content: "\f038";
+   display: inline-block;
+   padding-right: 8px;
+   vertical-align: middle;
+   font-weight: 900;
+}
+
+
+i {
+	color: white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.contrib {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg4-2.jpg');
+    padding: 80px 0px;
+    background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+
+.contrib-text h2 {
+	margin-top: -2%;
+    font-size: 280%;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
